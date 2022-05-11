@@ -1,0 +1,35 @@
+{
+    "infile": "C:/Users/Nyakas/Desktop/Programming/pyproc-master/carsdata.csv",
+    "format": "tabular",
+    "separator": ",",
+    "header": 1,
+    "numrows": 100,
+    "numfields": 5,
+    "fields": [
+        {
+            "Name": "Manufacturer",
+            "uniquevals": 3,
+            "Type": "string"
+        },
+        {
+            "Name": "Colour",
+            "uniquevals": 5,
+            "Type": "string"
+        },
+        {
+            "Name": "Size",
+            "uniquevals": 10,
+            "Type": "string"
+        },
+        {
+            "Name": "Milage",
+            "std": 18243.88577962491,
+            "Type": "numeric"
+        },
+        {
+            "Name": "Price",
+            "std": 361.258315195279,
+            "Type": "numeric"
+        }
+    ]
+}
